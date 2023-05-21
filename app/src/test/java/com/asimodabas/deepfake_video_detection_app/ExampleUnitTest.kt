@@ -1,4 +1,4 @@
-package com.example.deepfake_video_detection_app
+package com.asimodabas.deepfake_video_detection_app
 
 import org.junit.Test
 

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "609078947864",
+    "project_id": "deepfake-video-detection-app",
+    "storage_bucket": "deepfake-video-detection-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609078947864:android:5db2d3622961e9cc5d136d",
+        "android_client_info": {
+          "package_name": "com.asimodabas.deepfake_video_detection_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "609078947864-ma6iol1dugu0qilcmpp11ov0kt323659.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiTj9z5mS-0qQctabNS1n6X2mCzolShIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "609078947864-ma6iol1dugu0qilcmpp11ov0kt323659.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

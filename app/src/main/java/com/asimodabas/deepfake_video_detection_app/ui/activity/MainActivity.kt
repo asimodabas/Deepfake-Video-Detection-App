@@ -1,7 +1,8 @@
-package com.example.deepfake_video_detection_app
+package com.asimodabas.deepfake_video_detection_app.ui.activity
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import com.asimodabas.deepfake_video_detection_app.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

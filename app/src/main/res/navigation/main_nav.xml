@@ -1,6 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/main_nav">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/createFragment">
+    <fragment
+        android:id="@+id/createFragment"
+        android:name="com.asimodabas.deepfake_video_detection_app.ui.fragment.create.CreateFragment"
+        android:label="CreateFragment"
+        tools:layout="@layout/fragment_create">
 
+        <action
+            android:id="@+id/action_createFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:enterAnim="@anim/open_component_from_right"
+            app:exitAnim="@anim/close_component_from_left"
+            app:popEnterAnim="@anim/open_component_from_left"
+            app:popExitAnim="@anim/close_component_from_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.asimodabas.deepfake_video_detection_app.ui.fragment.login.LoginFragment"
+        android:label="LoginFragment"
+        tools:layout="@layout/fragment_login">
+
+        <action
+            android:id="@+id/action_loginFragment_to_createFragment"
+            app:destination="@id/createFragment"
+            app:enterAnim="@anim/open_component_from_right"
+            app:exitAnim="@anim/close_component_from_left"
+            app:popEnterAnim="@anim/open_component_from_left"
+            app:popExitAnim="@anim/close_component_from_right" />
+        <action
+            android:id="@+id/action_loginFragment_to_forgotPasswordFragment"
+            app:destination="@id/forgotPasswordFragment"
+            app:enterAnim="@anim/open_component_from_right"
+            app:exitAnim="@anim/close_component_from_left"
+            app:popEnterAnim="@anim/open_component_from_left"
+            app:popExitAnim="@anim/close_component_from_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/forgotPasswordFragment"
+        android:name="com.asimodabas.deepfake_video_detection_app.ui.fragment.forgot_password.ForgotPasswordFragment"
+        android:label="fragment_forgot_password"
+        tools:layout="@layout/fragment_forgot_password">
+        <action
+            android:id="@+id/action_forgotPasswordFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:enterAnim="@anim/open_component_from_right"
+            app:exitAnim="@anim/close_component_from_left"
+            app:popEnterAnim="@anim/open_component_from_left"
+            app:popExitAnim="@anim/close_component_from_right" />
+    </fragment>
 </navigation>

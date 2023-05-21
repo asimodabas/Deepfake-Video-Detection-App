@@ -6,6 +6,12 @@
     <!-- Login Fragment -->
     <string name="i_forgot_my_password">Şifrenizi mi unuttunuz?</string>
 
+    <!-- ForgotPassword Fragment -->
+    <string name="please_enter_your_email_adress">Lütfen E-Mail Adresinizi Girin!</string>
+    <string name="confirmation_email_sent">Onay Maili Gönderildi</string>
+    <string name="password_reset_text">Şifrenizi yenilemek için lütfen E-Mail adresinizi giriniz</string>
+    <string name="send">Gönder</string>
+
     <!-- Create Fragment -->
     <string name="dateOfBirth">Doğum Tarihi</string>
     <string name="name">Ad</string>

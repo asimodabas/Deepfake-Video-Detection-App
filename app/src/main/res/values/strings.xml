@@ -5,6 +5,7 @@
 
     <string name="settings">Ayarlar</string>
     <string name="my_account">Hesabım</string>
+    <string name="deep_fake_video">Deepfake Test</string>
 
     <!-- Login Fragment -->
     <string name="i_forgot_my_password">Şifrenizi mi unuttunuz?</string>

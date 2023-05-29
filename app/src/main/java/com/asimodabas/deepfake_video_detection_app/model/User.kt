@@ -1,4 +1,4 @@
-package com.asimodabas.deepfake_video_detection_app.ui.model
+package com.asimodabas.deepfake_video_detection_app.model
 
 class User(
     val name: String,

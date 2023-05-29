@@ -10,6 +10,17 @@
     <!-- Login Fragment -->
     <string name="i_forgot_my_password">Şifrenizi mi unuttunuz?</string>
 
+    <!-- Edit Fragment -->
+    <string name="edit_profile">PROFİLİ DÜZENLE</string>
+    <string name="update">Güncelle</string>
+    <string name="change_password">Şifreyi Değiştir</string>
+    <string name="delete_my_account">Hesabımı Sil</string>
+
+    <!-- Profile Fragment -->
+    <string name="name_surname">Ad Soyad</string>
+    <string name="user_info">Hakkımda</string>
+    <string name="register_date">Kayıt Tarihi</string>
+
     <!-- ForgotPassword Fragment -->
     <string name="please_enter_your_email_adress">Lütfen E-Mail Adresinizi Girin!</string>
     <string name="confirmation_email_sent">Onay Maili Gönderildi</string>

@@ -3,7 +3,7 @@ package com.asimodabas.src_team.ui.fragment.login.create
 import android.net.Uri
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.asimodabas.deepfake_video_detection_app.ui.model.User
+import com.asimodabas.deepfake_video_detection_app.model.User
 import com.asimodabas.deepfake_video_detection_app.util.Constants.IMAGES
 import com.asimodabas.deepfake_video_detection_app.util.Constants.USERS
 import com.google.firebase.auth.ktx.auth

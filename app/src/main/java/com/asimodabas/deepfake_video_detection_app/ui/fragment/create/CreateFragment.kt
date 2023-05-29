@@ -29,11 +29,9 @@ import com.asimodabas.deepfake_video_detection_app.util.Constants.IMAGE_NAME
 import com.asimodabas.deepfake_video_detection_app.util.datePickerCreate
 import com.asimodabas.deepfake_video_detection_app.util.toastMessage
 import com.asimodabas.deepfake_video_detection_app.util.viewBinding
-import com.asimodabas.src_team.ui.fragment.login.create.CreateViewModel
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.android.material.snackbar.Snackbar
 import java.io.ByteArrayOutputStream
-
 
 class CreateFragment : Fragment(R.layout.fragment_create) {
 

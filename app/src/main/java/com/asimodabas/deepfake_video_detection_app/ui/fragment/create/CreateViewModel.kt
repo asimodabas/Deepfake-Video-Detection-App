@@ -1,4 +1,4 @@
-package com.asimodabas.src_team.ui.fragment.login.create
+package com.asimodabas.deepfake_video_detection_app.ui.fragment.create
 
 import android.net.Uri
 import androidx.lifecycle.MutableLiveData

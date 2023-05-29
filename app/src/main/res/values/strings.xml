@@ -6,6 +6,8 @@
     <string name="settings">Ayarlar</string>
     <string name="my_account">Hesabım</string>
     <string name="deep_fake_video">Deepfake Test</string>
+    <string name="no">Hayır</string>
+    <string name="yes">Evet</string>
 
     <!-- Login Fragment -->
     <string name="i_forgot_my_password">Şifrenizi mi unuttunuz?</string>
@@ -15,6 +17,10 @@
     <string name="update">Güncelle</string>
     <string name="change_password">Şifreyi Değiştir</string>
     <string name="delete_my_account">Hesabımı Sil</string>
+    <string name="delete_account_confirm">Hesabınızı silmek istediğinizden emin misiniz?</string>
+    <string name="deletion_success">Silme işlemi başarılı, lütfen sayfayı yenileyin</string>
+    <string name="try_again_later">Daha Sonra Tekrar Deneyiniz</string>
+    <string name="changes_saved">Değişiklikler kaydedildi</string>
 
     <!-- Profile Fragment -->
     <string name="name_surname">Ad Soyad</string>

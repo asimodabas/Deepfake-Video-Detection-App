@@ -27,6 +27,7 @@ import com.asimodabas.deepfake_video_detection_app.databinding.DeleteAccountConf
 import com.asimodabas.deepfake_video_detection_app.databinding.FragmentEditBinding
 import com.asimodabas.deepfake_video_detection_app.model.UserModel
 import com.asimodabas.deepfake_video_detection_app.ui.activity.MainActivity
+import com.asimodabas.deepfake_video_detection_app.util.Constants.CURRENT_USER_MAIL
 import com.asimodabas.deepfake_video_detection_app.util.Constants.IMAGE_NAME
 import com.asimodabas.deepfake_video_detection_app.util.Constants.USERS
 import com.asimodabas.deepfake_video_detection_app.util.datePickerCreate
@@ -49,7 +50,6 @@ class EditFragment : Fragment(R.layout.fragment_edit) {
     private val viewModel: EditViewModel by viewModels()
     private var selectedBitmap: Bitmap? = null
     private var selectedUri: Uri? = null
-    private lateinit var currentUserMail: String
     private lateinit var activityResultLauncher: ActivityResultLauncher<Intent>
     private lateinit var permissionLauncher: ActivityResultLauncher<Array<String>>
     private val neededRuntimePermissions = arrayOf(
@@ -68,7 +68,7 @@ class EditFragment : Fragment(R.layout.fragment_edit) {
                 if (snapshot.exists()) {
                     val myConfirmControl = snapshot.getValue(UserModel::class.java)
                     if (myConfirmControl != null) {
-                        currentUserMail = myConfirmControl.email
+                        CURRENT_USER_MAIL = myConfirmControl.email
                     }
                 }
             }
@@ -125,7 +125,7 @@ class EditFragment : Fragment(R.layout.fragment_edit) {
                     if (dialogPasswordBinding.editTextPass.text.isNotEmpty()) {
                         dialog.cancel()
                         val password = dialogPasswordBinding.editTextPass.text.toString().trim()
-                        val credential = EmailAuthProvider.getCredential(currentUserMail, password)
+                        val credential = EmailAuthProvider.getCredential(CURRENT_USER_MAIL, password)
                         val user = Firebase.auth.currentUser!!
                         user.reauthenticate(credential).addOnCompleteListener { task ->
                             if (task.isSuccessful) {

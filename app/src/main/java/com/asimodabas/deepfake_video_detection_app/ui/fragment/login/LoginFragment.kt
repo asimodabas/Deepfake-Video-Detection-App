@@ -9,6 +9,7 @@ import androidx.navigation.fragment.findNavController
 import com.asimodabas.deepfake_video_detection_app.R
 import com.asimodabas.deepfake_video_detection_app.databinding.FragmentLoginBinding
 import com.asimodabas.deepfake_video_detection_app.ui.activity.FlowActivity
+import com.asimodabas.deepfake_video_detection_app.util.Constants.CURRENT_USER_MAIL
 import com.asimodabas.deepfake_video_detection_app.util.closeKeyboard
 import com.asimodabas.deepfake_video_detection_app.util.toastMessage
 import com.asimodabas.deepfake_video_detection_app.util.viewBinding
@@ -61,6 +62,7 @@ class LoginFragment : Fragment(R.layout.fragment_login) {
                     activity?.let {
                         it.startActivity(Intent(it, FlowActivity::class.java))
                         it.finish()
+                        CURRENT_USER_MAIL = binding.loginEmailEditText.text.toString().trim()
                     }
                 }
             }

@@ -33,6 +33,13 @@
     <string name="password_reset_text">Şifrenizi yenilemek için lütfen E-Mail adresinizi giriniz</string>
     <string name="send">Gönder</string>
 
+    <!-- UpdatePassword Fragment -->
+    <string name="password_must_match">Girilen yeni şifreler uyuşmuyor</string>
+    <string name="please_enter_different_password">Eski ve Yeni Şifre Aynı Olamaz!</string>
+    <string name="please_enter_new_password">lütfen yeni şifrenizi giriniz</string>
+    <string name="new_password">Yeni Şifre</string>
+    <string name="password_changed">Şifre Değişti, Lütfen Tekrar Giriş Yapın</string>
+
     <!-- Create Fragment -->
     <string name="dateOfBirth">Doğum Tarihi</string>
     <string name="name">Ad</string>

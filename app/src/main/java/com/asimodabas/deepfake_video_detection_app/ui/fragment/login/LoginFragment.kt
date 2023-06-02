@@ -23,7 +23,7 @@ class LoginFragment : Fragment(R.layout.fragment_login) {
     private val viewModel: LoginViewModel by viewModels()
     private val binding by viewBinding(FragmentLoginBinding::bind)
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) = with(binding) {
         super.onViewCreated(view, savedInstanceState)
 
         auth = Firebase.auth
@@ -34,24 +34,23 @@ class LoginFragment : Fragment(R.layout.fragment_login) {
                 it.finish()
             }
         }
-        with(binding) {
-            loginButton.setOnClickListener {
-                closeKeyboard(requireActivity(), requireContext())
-                if (dataControl()) {
-                    val email = loginEmailEditText.text.toString().trim()
-                    val password = loginPasswordEditText.text.toString().trim()
-                    viewModel.loginToApp(email, password)
-                    observeData()
-                } else {
-                    toastMessage(requireContext(), getString(R.string.fill_in_the_blanks))
-                }
+
+        loginButton.setOnClickListener {
+            closeKeyboard(requireActivity(), requireContext())
+            if (dataControl()) {
+                val email = loginEmailEditText.text.toString().trim()
+                val password = loginPasswordEditText.text.toString().trim()
+                viewModel.loginToApp(email, password)
+                observeData()
+            } else {
+                toastMessage(requireContext(), getString(R.string.fill_in_the_blanks))
             }
-            createButton.setOnClickListener {
-                findNavController().navigate(R.id.action_loginFragment_to_createFragment)
-            }
-            forgotPassTextView.setOnClickListener {
-                findNavController().navigate(R.id.action_loginFragment_to_forgotPasswordFragment)
-            }
+        }
+        createButton.setOnClickListener {
+            findNavController().navigate(R.id.action_loginFragment_to_createFragment)
+        }
+        forgotPassTextView.setOnClickListener {
+            findNavController().navigate(R.id.action_loginFragment_to_forgotPasswordFragment)
         }
     }
 

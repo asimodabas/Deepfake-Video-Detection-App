@@ -22,8 +22,8 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import com.asimodabas.deepfake_video_detection_app.R
-import com.asimodabas.deepfake_video_detection_app.databinding.BottomKvkkDialogBinding
 import com.asimodabas.deepfake_video_detection_app.databinding.FragmentCreateBinding
+import com.asimodabas.deepfake_video_detection_app.databinding.LayoutBottomKvkkBinding
 import com.asimodabas.deepfake_video_detection_app.ui.activity.FlowActivity
 import com.asimodabas.deepfake_video_detection_app.util.Constants.IMAGE_NAME
 import com.asimodabas.deepfake_video_detection_app.util.datePickerCreate
@@ -55,7 +55,7 @@ class CreateFragment : Fragment(R.layout.fragment_create) {
                 requireContext(), R.style.ThemeOverlay_MaterialComponents_BottomSheetDialog
             )
             val bottomSheetBinding =
-                BottomKvkkDialogBinding.inflate(LayoutInflater.from(requireContext()))
+                LayoutBottomKvkkBinding.inflate(LayoutInflater.from(requireContext()))
             bottomSheetDialog.setContentView(bottomSheetBinding.root)
             bottomSheetDialog.show()
         }

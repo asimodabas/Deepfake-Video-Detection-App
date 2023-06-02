@@ -23,8 +23,8 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import com.asimodabas.deepfake_video_detection_app.R
-import com.asimodabas.deepfake_video_detection_app.databinding.DeleteAccountConfirmDialogBinding
 import com.asimodabas.deepfake_video_detection_app.databinding.FragmentEditBinding
+import com.asimodabas.deepfake_video_detection_app.databinding.LayoutDeleteAccountConfirmBinding
 import com.asimodabas.deepfake_video_detection_app.model.UserModel
 import com.asimodabas.deepfake_video_detection_app.ui.activity.MainActivity
 import com.asimodabas.deepfake_video_detection_app.util.Constants.CURRENT_USER_MAIL
@@ -117,7 +117,7 @@ class EditFragment : Fragment(R.layout.fragment_edit) {
             }
             builder.setPositiveButton(R.string.yes) { _, _ ->
                 val dialog = Dialog(requireContext())
-                val dialogPasswordBinding = DeleteAccountConfirmDialogBinding.inflate(
+                val dialogPasswordBinding = LayoutDeleteAccountConfirmBinding.inflate(
                     LayoutInflater.from(requireContext())
                 )
                 dialog.setContentView(dialogPasswordBinding.root)
@@ -125,7 +125,8 @@ class EditFragment : Fragment(R.layout.fragment_edit) {
                     if (dialogPasswordBinding.editTextPass.text.isNotEmpty()) {
                         dialog.cancel()
                         val password = dialogPasswordBinding.editTextPass.text.toString().trim()
-                        val credential = EmailAuthProvider.getCredential(CURRENT_USER_MAIL, password)
+                        val credential =
+                            EmailAuthProvider.getCredential(CURRENT_USER_MAIL, password)
                         val user = Firebase.auth.currentUser!!
                         user.reauthenticate(credential).addOnCompleteListener { task ->
                             if (task.isSuccessful) {

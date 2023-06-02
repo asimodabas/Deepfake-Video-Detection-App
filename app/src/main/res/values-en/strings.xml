@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Deepfake-Video-Detection-App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="settings">Settings</string>
+    <string name="my_account">My Account</string>
+    <string name="deep_fake_video">Deepfake Test</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+
+    <!-- Login Fragment -->
+    <string name="i_forgot_my_password">I forgot my password</string>
+
+    <!-- Edit Fragment -->
+    <string name="edit_profile">EDIT PROFILE</string>
+    <string name="update">Update</string>
+    <string name="change_password">Change Password</string>
+    <string name="delete_my_account">Delete My Account</string>
+    <string name="delete_account_confirm">Are you sure you want to delete your account?</string>
+    <string name="deletion_success">Deletion successful, please refresh the page</string>
+    <string name="try_again_later">Try Again Later</string>
+    <string name="changes_saved">Changes saved</string>
+
+    <!-- Profile Fragment -->
+    <string name="name_surname">Name Surname</string>
+    <string name="user_info">About me</string>
+    <string name="register_date">Date of registration</string>
+
+    <!-- ForgotPassword Fragment -->
+    <string name="please_enter_your_email_adress">Please Enter Your E-Mail Address!</string>
+    <string name="confirmation_email_sent">Confirmation Email Sent</string>
+    <string name="password_reset_text">Please enter your E-mail address to reset your password</string>
+    <string name="send">Send</string>
+
+    <!-- UpdatePassword Fragment -->
+    <string name="password_must_match">New passwords entered do not match</string>
+    <string name="please_enter_different_password">Old and New Password Cannot Be Same!</string>
+    <string name="please_enter_new_password">please enter your new password</string>
+    <string name="new_password">New Password</string>
+    <string name="password_changed">Password Changed, Please Login Again</string>
+
+    <!-- Settings Fragment -->
+    <string name="dark_mode">"Dark Mode"</string>
+    <string name="notification">"Notifications"</string>
+    <string name="language">Language</string>
+    <string name="language_english">English</string>
+    <string name="language_turkish">Turkish</string>
+    <string name="log_out">Log Out</string>
+    <string name="blocked_users">Blocked</string>
+    <string name="language_changed_tr">Language changed to Turkish</string>
+    <string name="language_changed_en">Language changed to English</string>
+
+    <!-- Create Fragment -->
+    <string name="dateOfBirth">Date of Birth</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="man">Male</string>
+    <string name="woman">Woman</string>
+    <string name="click_create_button">If You Click the REGISTER Button</string>
+    <string name="kvkk_text_accept">Explicit Consent Text</string>
+    <string name="you_accept">you agree</string>
+    <string name="register">Register</string>
+    <string name="already_have_account">Do you already have an account?</string>
+    <string name="log_in">Sign In</string>
+    <string name="gallery_permission">Permission required to go to gallery</string>
+    <string name="give_permission">Grant permission</string>
+    <string name="please_enter_valid_name">"Please Enter a Valid Name"</string>
+    <string name="please_enter_valid_surname">"Please Enter a Valid Surname"</string>
+    <string name="please_enter_valid_mail">"Please Enter a Valid Email Address"</string>
+    <string name="please_enter_valid_number">"Please Enter a Valid 11 Digit Number"</string>
+    <string name="please_enter_valid_password">"Please Enter a Valid Password"</string>
+    <string name="fill_in_the_blanks">Please fill in the blanks!</string>
+    <string name="welcome">Login Success</string>
+    <string name="kvkk_text">Deep Fake Video Detection\n\nEXPRESS CONSENT DECLARATION UNDER THE LAW ON THE PROTECTION OF PERSONAL DATA\n\n
+  In accordance with the relevant provisions of the Personal Data Protection Law No. 6698 (“KVK Law"), within the scope of the Personal Data Protection Law submitted to your information by Deep Fake Video Detection;\n\n
+    By the Src Team as the data controller of their personal data or by the data processors they have authorized by taking the necessary security measures; Src-of the product or service to be offered before it can be presented in a manner that is uninterrupted, reliable and user satisfaction to a higher level can be removed, to the promotion of various products and services, and marketed, advertised the team has to offer to its users the best it can be under the circumstances to be determined by the activities of other users of the services products and campaign activities in order to be alerted to news and blog posts, directly or indirectly, related to personal data, which is; No. 4 of the law on protection of personal data. 6698 ("KVK Law"), in particular, is the principle of storing Personal Data for the period stipulated in the legislation or necessary for the purpose for which they are processed. that it can be processed in accordance with the general principles expressed in the article; for purposes that can be obtained, recorded or processed electronically, which can be stored physically securely, which can be stored for the appropriate period of time, which can be changed, re-explained and edited, which can be transferred in accordance with laws and regulations, which can be inherited, which can be obtained, recorded or processed electronically, which can be stored physically for the appropriate period of time, which can be changed, the use of data that can be categorized or processed for purposes that can be re-disclosed and transferred for purposes that can be inherited for purposes that can be obtained for purposes that can be obtained for purposes that can be obtained for purposes that can be obtained for purposes that can be obtained for purposes that can be obtained can be prevented; as mentioned above, I have been informed by the KVK src team with explicit consent within the framework of the law, and I accept and confirm this.\n\n
+    I also accept and declare that the personal data I share with the Deep Fake Video Detection is correct and up-to-date; if there are changes in this information, I will notify the changes to the Deep Fake Video Detection.\n\n
+    KVK qualified private about my personal data as defined in the Act, including those related to the processing of my personal data within the scope of the process that is used is processed within the period required to be limited to the purpose of concealment on the side and is made of lighting is required to be shared on this subject; this is the text of Deep Fake Video Detection with the processing of personal data protection and I admit that I have read and understood the text of the regulation of lighting.\n\n</string>
+</resources>

@@ -87,7 +87,7 @@
                                     android:gravity="center"
                                     android:text="@{myModel.name, default=@string/name}"
                                     android:textAllCaps="true"
-                                    android:textColor="@color/black"
+                                    android:textColor="@color/black_white_color"
                                     android:textSize="18sp"
                                     android:textStyle="bold" />
 
@@ -102,7 +102,7 @@
                                     android:gravity="center"
                                     android:text="@{myModel.surname, default=@string/surname}"
                                     android:textAllCaps="true"
-                                    android:textColor="@color/black"
+                                    android:textColor="@color/black_white_color"
                                     android:textSize="18sp"
                                     android:textStyle="bold" />
                             </LinearLayout>
@@ -131,7 +131,7 @@
                                     android:gravity="center"
                                     android:text="@string/edit_profile"
                                     android:textAllCaps="true"
-                                    android:textColor="@color/black"
+                                    android:textColor="@color/black_white_color"
                                     android:textSize="14sp"
                                     android:textStyle="bold" />
 
@@ -181,7 +181,7 @@
                     android:padding="15dp"
                     android:text="@{myModel.name}"
                     android:textAlignment="center"
-                    android:textColorHint="@color/black"
+                    android:textColorHint="@color/black_white_color"
                     android:textStyle="bold" />
 
                 <EditText
@@ -197,7 +197,7 @@
                     android:padding="15dp"
                     android:text="@{myModel.surname}"
                     android:textAlignment="center"
-                    android:textColorHint="@color/black"
+                    android:textColorHint="@color/black_white_color"
                     android:textStyle="bold" />
 
                 <EditText
@@ -213,7 +213,7 @@
                     android:padding="15dp"
                     android:text="@{myModel.number}"
                     android:textAlignment="center"
-                    android:textColorHint="@color/black"
+                    android:textColorHint="@color/black_white_color"
                     android:textStyle="bold" />
 
                 <com.google.android.material.button.MaterialButton
@@ -230,7 +230,7 @@
                     android:textAlignment="center"
                     android:textAllCaps="false"
                     android:textColor="@color/black"
-                    android:textColorHint="@color/black"
+                    android:textColorHint="@color/black_white_color"
                     android:textSize="18sp"
                     app:backgroundTint="#454444"
                     app:iconPadding="10dp" />

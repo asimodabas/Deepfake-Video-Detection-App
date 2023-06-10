@@ -61,8 +61,8 @@
                 android:inputType="textPersonName"
                 android:padding="15dp"
                 android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textColorHint="@color/black" />
+                android:textColor="@color/black_white_color"
+                android:textColorHint="@color/black_white_color" />
 
             <EditText
                 android:id="@+id/surnameEditText"
@@ -76,8 +76,8 @@
                 android:inputType="textPersonName"
                 android:padding="15dp"
                 android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textColorHint="@color/black" />
+                android:textColor="@color/black_white_color"
+                android:textColorHint="@color/black_white_color" />
 
             <EditText
                 android:id="@+id/emailEditText"
@@ -90,7 +90,8 @@
                 android:hint="@string/e_mail"
                 android:padding="15dp"
                 android:textAlignment="center"
-                android:textColorHint="@color/black" />
+                android:textColor="@color/black_white_color"
+                android:textColorHint="@color/black_white_color" />
 
             <ProgressBar
                 android:id="@+id/progressBar"
@@ -112,8 +113,8 @@
                 android:maxLength="10"
                 android:padding="15dp"
                 android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textColorHint="@color/black" />
+                android:textColor="@color/black_white_color"
+                android:textColorHint="@color/black_white_color" />
 
             <EditText
                 android:id="@+id/passwordEditText"
@@ -127,7 +128,8 @@
                 android:inputType="textPassword"
                 android:padding="15dp"
                 android:textAlignment="center"
-                android:textColorHint="@color/black" />
+                android:textColor="@color/black_white_color"
+                android:textColorHint="@color/black_white_color" />
 
             <RadioGroup
                 android:id="@+id/radioGroup"
@@ -141,14 +143,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:text="@string/man"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/black_white_color" />
 
                 <RadioButton
                     android:id="@+id/radioButtonFemale"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/woman"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/black_white_color" />
             </RadioGroup>
 
             <TextView
@@ -157,7 +159,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/click_create_button"
                 android:textAlignment="center"
-                android:textColor="@color/black"
+                android:textColor="@color/black_white_color"
                 android:textSize="16sp" />
 
             <LinearLayout
@@ -183,7 +185,7 @@
                     android:layout_marginStart="4dp"
                     android:text="@string/you_accept"
                     android:textAlignment="center"
-                    android:textColor="@color/black"
+                    android:textColor="@color/black_white_color"
                     android:textSize="16sp" />
             </LinearLayout>
 
@@ -209,7 +211,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/already_have_account"
                     android:textAlignment="center"
-                    android:textColor="@color/black"
+                    android:textColor="@color/black_white_color"
                     android:textSize="16sp" />
 
                 <TextView

@@ -27,8 +27,8 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
 
     private val binding by viewBinding(FragmentHomeBinding::bind)
     private val viewModel: HomeViewModel by viewModels()
-    private lateinit var permissionLauncher: ActivityResultLauncher<Intent>
     private var uploadMessage: ValueCallback<Array<Uri>>? = null
+    private lateinit var permissionLauncher: ActivityResultLauncher<Intent>
 
     @RequiresApi(Build.VERSION_CODES.O)
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

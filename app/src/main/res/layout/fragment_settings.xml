@@ -52,7 +52,7 @@
                 android:layout_marginHorizontal="25dp"
                 android:text="@string/dark_mode"
                 android:textAlignment="textStart"
-                android:textColor="@color/black"
+                android:textColor="@color/black_white_color"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/applyModeSwitch"
@@ -114,7 +114,7 @@
                     android:layout_weight="1"
                     android:gravity="center"
                     android:text="@string/language"
-                    android:textColor="@color/black"
+                    android:textColor="@color/black_white_color"
                     android:textSize="16sp" />
 
                 <ImageView
@@ -193,7 +193,7 @@
         android:layout_marginBottom="100dp"
         android:background="@drawable/edittext_message_background"
         android:text="@string/log_out"
-        android:textColor="@color/black"
+        android:textColor="@color/black_white_color"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
